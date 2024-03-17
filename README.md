@@ -8,32 +8,38 @@ pip install -r requirements.txt or pip3 install -r requirements.txt
 python main.py or python3 main.py
 
 ## Results of execution
-Execution time before caching results for 100 iterations :
+Execution time **before** caching results for **100** iterations :
+
         Greedy         : 0.06 ms
         Min            : 0.07 ms
         Min with LRU   : 0.06 ms
 
-Execution time after caching results for 100 iterations :
+Execution time **after** caching results for **100** iterations :
+
         Greedy         : 0.05 ms
         Min            : 0.04 ms
         Min with LRU   : 0.04 ms
 
-Execution time before caching results for 1000 iterations :
+Execution time **before** caching results for **1000** iterations :
+
         Greedy         : 0.05 ms
         Min            : 0.03 ms
         Min with LRU   : 0.04 ms
 
-Execution time after caching results for 1000 iterations :
+Execution time **after** caching results for **1000** iterations :
+
         Greedy         : 0.48 ms
         Min            : 0.23 ms
         Min with LRU   : 0.38 ms
 
-Execution time before caching results for 10000 iterations :
+Execution time **before** caching results for **10000** iterations :
+
         Greedy         : 0.05 ms
         Min            : 0.02 ms
         Min with LRU   : 0.04 ms
 
-Execution time after caching results for 10000 iterations :
+Execution time **after** caching results for **10000** iterations :
+
         Greedy         : 4.70 ms
         Min            : 1.89 ms
         Min with LRU   : 3.57 ms
